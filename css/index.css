@@ -70,7 +70,7 @@
     top: 10em;
     margin-left: 704.5px;
     margin-top: -45em;
-    padding-top: 2x;
+    padding-top: 2p;
 }
 .right-side{
     margin-top: -1.7em;
@@ -86,8 +86,8 @@
     position: relative;
     top: -7.5em;
     left: 5em;    
-    -webkit-transition-duration: 2s;
-    transition-duration: 2s;
+    /* -webkit-transition-duration: 2s;
+    transition-duration: 2s; */
 }
 .sign-in-button:hover{
     background-color: black;
@@ -97,3 +97,45 @@
     -webkit-transition-duration: 0.5s;
     transition-duration: 0.5s;
 }
+
+
+
+
+
+@media screen and (max-width:460px){
+    .main-logo{
+        margin-left: 2em;
+    }
+    .main-txt{
+        font-size: 35px;
+        font-weight: 600;
+    }
+    .main-discription{
+        font-size: 15px;
+    }
+    .all-in-the-left{
+        position: relative;
+        left: -5em;
+        top: 30em;
+    }
+    .sign-in-button{
+        width: 15em;
+        margin-left: 2em;
+        margin-top: 6em;
+    }
+    .main-pic{
+        position: relative;
+        top: 10em;
+        margin-left: 2.5px;
+        margin-top: -72em;
+        width: 25.9em;
+        height: 28em;
+    }
+    .booking{
+        margin-left: -0.6em;
+    }
+    .plumguide{
+        margin-left: 19.5em;
+        margin-top: -5em;
+    }
+}    

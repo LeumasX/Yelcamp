@@ -187,3 +187,57 @@
     width: 360px;
     margin-top: -21.5em;
 }
+
+@media screen and (max-width:460px){
+    .main-logo{
+        margin-left: 0.1em;
+    }
+    .home{
+        display: none;
+    }
+    .logout{
+        display: none;
+    }
+    .johndoe{
+        display:none;
+    }
+    .main-txt{
+        font-weight: 600;
+        font-size: 35px;
+        margin-left: 0.9em;
+    }
+    .welcome-txt{
+        margin-left: 1em;
+        width: 24em;
+    }
+    .yelp-descriptions{
+        margin-left: 2em;
+        width: 21.4em;
+    } 
+    .search-for-camps{
+        width: 19.9em;
+        margin-left: 2em;
+    }
+    .search-icon{
+        position: relative;
+        left: -19em;
+    }
+    .search-button{
+        margin: 15px;
+        color: white;
+        background-color: black;
+        width: 18em;
+        border-radius: 0.3em;
+        margin-left: 1.6em;
+        border: 1px solid black;
+    }
+    .add-camp{
+        position: relative;
+        left: 2em;
+        top: 0.5em;
+    }
+    .mount-ulap-all{
+        margin-left: -15em;
+        width: 20em;
+    }    
+}

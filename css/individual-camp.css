@@ -27,7 +27,7 @@
     margin-left: 56em;
     position: relative;
     top: -2.2em;
-}
+} 
 .map-img-all{
     border-radius: 0.3em;
     border: 2px solid rgb(231, 227, 227);
@@ -140,4 +140,66 @@
 .bottom{
     position: relative;
     top: -20em;
+}
+@media screen and (min-width:780px){
+    .hamMenu{
+        display: none;
+    }
+}
+@media screen and (max-width:460px){
+    .main-logo{
+        margin-left: 2em;
+    }
+    .home{
+        display: none;
+    }
+    .johndoe{
+        display: none;
+    }
+    .logout{
+        display: none;
+    }
+    .map-img-all{
+        margin-left: -7.1em;
+        width: 22em;
+        height: 24em;
+        margin-top: 40em;
+        position: relative;
+        top: 48em;
+    }
+    .map-img{
+        margin-left: 2em;
+        margin-top: -1.3em;
+    }
+    .mount-ulap-all{
+        margin-left: 7.2em;
+        margin-top: -35em;
+        width: 22em;
+        height: em;
+    }
+    .mount-ulap-img{
+        width: 20em;
+        margin-left: 1em;
+    }
+    .all-comments{
+        margin-left: 2.5em;
+        width: 22em;
+    }
+    .line1{
+        width: 18em;
+    }
+    .time{
+        margin-left: 20em;
+        margin-top: -8.5em;
+    }
+    .live-a-review{
+        margin-left: 2.1em;
+    }
+    .bottom{
+        margin-top: 30em;
+    }
+    .hamMenu{
+        position: relative;
+        left: 23em;
+    }
 }
